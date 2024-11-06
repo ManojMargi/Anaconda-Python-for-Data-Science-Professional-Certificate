@@ -42,7 +42,7 @@ print ("string type " + str(123))
 
 # Global vs. local variables in functions
 def someFunction():
-    #global mystr
+    global mystr
     mystr = "def"
     print (mystr)
 
@@ -50,4 +50,4 @@ someFunction()
 print (mystr) 
 
 del mystr
-print (mystr)
+# print (mystr)
