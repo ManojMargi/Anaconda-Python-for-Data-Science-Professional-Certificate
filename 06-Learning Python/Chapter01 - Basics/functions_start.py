@@ -14,7 +14,7 @@ def func2(arg1, arg2):
 
 # TODO: function that returns a value
 def cube(x):
-    return x*x*x
+    return x * x * x
 
 # TODO: function with default value for an argument
 def power(num, x=1):
