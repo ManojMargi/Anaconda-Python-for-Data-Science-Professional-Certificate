@@ -13,7 +13,8 @@ def main():
         x = x + 1
 
     # TODO: define a for loop
-
+    for x in range(5,10):
+        print (x)
 
     # TODO: use a for loop over a collection
     days = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
