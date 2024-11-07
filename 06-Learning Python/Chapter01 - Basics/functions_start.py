@@ -9,7 +9,8 @@ def func1():
     print("I am a function")
 
 # TODO: function that takes arguments
-
+def func2(arg1, arg2):
+    print(arg1, " ", arg2)
 
 # TODO: function that returns a value
 
@@ -23,3 +24,5 @@ def func1():
 func1()
 print(func1())
 print(func1)
+func2(10, 20)
+print(func2(10, 20))
