@@ -22,8 +22,11 @@ def main():
     # Open the file back up and read the contents
     myfile = open("textfile.txt", "r")
     if myfile.mode == "r":
-        contents = myfile.read()
-        print(contents)
-        
+        # contents = myfile.read()
+        # print(contents)
+        fl = myfile.readlines()
+        for x in fl:
+            print(x)
+
 if __name__ == "__main__":
     main()
