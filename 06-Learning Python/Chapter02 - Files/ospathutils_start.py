@@ -20,8 +20,8 @@ def main():
     print("Item is a directory:", path.isdir("textfile.txt"))
 
     # Work with file paths
-
-    
+    print("Item's path:", path.realpath("textfile.txt"))
+    print("Item's path and name: ", path.split(path.realpath("textfile.txt")))
     # Get the modification time
 
     
