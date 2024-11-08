@@ -29,7 +29,9 @@ def main():
     print(datetime.datetime.fromtimestamp(path.getmtime("textfile.txt")))
 
     # Calculate how long ago the item was modified
-
+    td = datetime.datetime.now() - datetime.datetime.fromtimestamp(path.getmtime("textfile.txt"))
+    print("It has been", td, "since the file was modified")
+    print("Or,", td.total_seconds(), "Seconds")
   
 if __name__ == "__main__":
     main()
