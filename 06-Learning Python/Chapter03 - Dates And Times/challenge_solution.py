@@ -49,3 +49,15 @@ while(run):
         print(e)
         print("Sorry, that's not valid input")
 
+# import calendar
+
+# show_expected_result = False
+# show_hints = False
+
+# def count_days(year, month, whichday):
+#     cal = calendar.monthcalendar(year,month)
+#     n = 0
+#     for week in cal:
+#         if week[whichday] != 0:
+#             n += 1
+#     return n
