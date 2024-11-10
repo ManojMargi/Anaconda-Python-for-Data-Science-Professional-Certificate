@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <person>
-  <firstname>Joe</firstname>
-  <lastname>Marini</lastname>
+  <firstname>Manoj</firstname>
+  <lastname>Margi</lastname>
   <home>Seattle</home>
   <skill name="JavaScript"/>
   <skill name="Python"/>
