@@ -1,1 +1,2 @@
 *.npy filter=lfs merge=lfs diff=lfs -text
+*.pdf filter=lfs merge=lfs diff=lfs -text
